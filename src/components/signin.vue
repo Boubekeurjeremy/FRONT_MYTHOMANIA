@@ -1,12 +1,10 @@
 <script>
 export default {
-    name:"SignIn"
-}
-
+  name: "SignIn",
+};
 </script>
 <template>
   <body class="text-center">
-   
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
       <symbol id="check2" viewBox="0 0 16 16">
         <path
@@ -153,7 +151,7 @@ body {
 
 body {
   align-items: center;
-  padding-top: 40px;
+
   padding-bottom: 40px;
   background-color: #f5f5f5;
 }
@@ -195,7 +193,7 @@ body {
 
 .b-example-divider {
   width: 100%;
-  height: 3rem;
+
   background-color: rgba(0, 0, 0, 0.1);
   border: solid rgba(0, 0, 0, 0.15);
   border-width: 1px 0;
