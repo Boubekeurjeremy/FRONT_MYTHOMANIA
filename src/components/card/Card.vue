@@ -1,6 +1,6 @@
 <script>
 import Comment from "./Comment.vue";
-import Avatar from "./Avatar.vue";
+import Avatar from "../ui/Avatar.vue";
 export default {
   name: "Card",
   components: {
@@ -45,9 +45,15 @@ export default {
     </div>
   </div>
 </template>
-<style>
-.card {
-  width: 30rem;
+<style scoped>
+@media (min-width: 768px){
+  .card {
+    width: 70%;
+  }
+}
+.card-header {
+  display: flex;
+  align-items: center;
 }
 .card-header img {
   width: 50px;

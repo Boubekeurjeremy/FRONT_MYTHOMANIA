@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: "SignIn",
+  name: "LoginPage",
 };
 </script>
 <template>
@@ -100,7 +100,7 @@ export default {
       </ul>
     </div>
 
-    <main class="form-signin w-100 m-auto">
+    <main class="form-login w-100 m-auto">
       <form>
         <img
           class="mb-4"
@@ -143,7 +143,7 @@ export default {
     </main>
   </body>
 </template>
-<style>
+<style scoped>
 html,
 body {
   height: 100%;
@@ -155,23 +155,23 @@ body {
   padding-bottom: 40px;
   background-color: #f5f5f5;
 }
-
-.form-signin {
+.form-login {
   max-width: 330px;
   padding: 15px;
 }
 
-.form-signin .form-floating:focus-within {
+
+.form-login .form-floating:focus-within {
   z-index: 2;
 }
 
-.form-signin input[type="email"] {
+.form-login input[type="email"] {
   margin-bottom: -1px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
 
-.form-signin input[type="password"] {
+.form-login input[type="password"] {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
@@ -192,7 +192,7 @@ body {
 }
 
 .b-example-divider {
-  width: 100%;
+  
 
   background-color: rgba(0, 0, 0, 0.1);
   border: solid rgba(0, 0, 0, 0.15);

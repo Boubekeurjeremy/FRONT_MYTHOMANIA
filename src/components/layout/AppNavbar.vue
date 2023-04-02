@@ -1,7 +1,7 @@
 <script>
-import Logo from "./Logo.vue";
+import Logo from "../ui/Logo.vue";
 export default {
-  name: "NavbarVue",
+  name: "AppNavbar",
   components: {
     Logo,
   },
@@ -77,6 +77,7 @@ export default {
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
+    width: 100%;
   }
 }
 

@@ -15,16 +15,16 @@ export default {
     <label for="floatingTextarea2">Comments</label>
   </div>
   <div class="d-flex">
-    <label type="file-input" class="btn btn-secondary mt-1"
-      >Add image <input id="file-input" type="file"
+    <label type="file-input" class="btn btn-secondary mt-1 "
+      >Add image <input id="file-input" type="file" class="file_input" 
     /></label>
     <button type="button" class="btn btn-primary mt-1 ms-auto">Post</button>
   </div>
   <hr class="dropdown-divider-secondary" />
 </template>
 <style module>
-#file-input {
-  display: none;
+div label input  {
+  display: none !important;
 }
 body {
   background-color: var(--bs-gray-300) !important;

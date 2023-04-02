@@ -1,8 +1,8 @@
 <script>
-import Card from "./Card.vue";
+import Card from "../../components/card/Card.vue";
 import PostForm from "./PostForm.vue";
 export default {
-  name: "Wall",
+  name: "WallPage",
   components: {
     Card,
     PostForm,
@@ -10,8 +10,8 @@ export default {
 };
 </script>
 <template>
-  <h1>Wall</h1>
-  <div class="container-sm">
+ 
+  <div class="container-sm mt-3">
     <PostForm></PostForm>
     <card></card>
     <card></card>
