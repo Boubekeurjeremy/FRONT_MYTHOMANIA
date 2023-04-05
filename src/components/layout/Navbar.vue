@@ -1,7 +1,7 @@
 <script>
-import Logo from "../ui/Logo.vue";
+import Logo from "../ui/svg/Logo.vue";
 export default {
-  name: "AppNavbar",
+  name: "NavbarVue",
   components: {
     Logo,
   },
@@ -37,8 +37,8 @@ export default {
             >
           </li>
           <li>
-            <router-link to="/profile" class="nav-link px-2 text-white">
-              Profile</router-link
+            <router-link to="/contact" class="nav-link px-2 text-white">
+              Contact</router-link
             >
           </li>
           <!--<li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
@@ -57,9 +57,9 @@ export default {
 
         <div class="text-end">
           <button type="button" class="btn btn-outline-light me-2">
-            Logout
+            Login
           </button>
-          <button type="button" class="btn btn-primary">Login</button>
+          <button type="button" class="btn btn-primary">Sign-up</button>
         </div>
       </div>
     </div>

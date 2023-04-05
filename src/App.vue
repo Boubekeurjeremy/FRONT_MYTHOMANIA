@@ -19,4 +19,7 @@ export default {
 h1 {
   text-align: center;
 }
+body{
+  background-color: lightgrey !important;
+}
 </style>
